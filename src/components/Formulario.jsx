@@ -19,10 +19,10 @@ const Formulario = () => {
           </select>
         </div>
         <div className="flex gap-2 md:col-span-2">
-          <button className="bg-red-700 hover:bg-red-800 px-4 py-2 rounded transition shadow-md">
+          <button className="bg-red-700 hover:bg-red-800 px-4 py-2 rounded transition shadow-md" type="submit">
             Buscar
           </button>
-          <button className="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded transition shadow-md">
+          <button className="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded transition shadow-md" type="button">
             Resetear
           </button>
         </div>
