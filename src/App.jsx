@@ -25,7 +25,7 @@ function App() {
       </h1>
 
       <Formulario></Formulario>
-      <CardClima></CardClima>
+  
       {/* <Error></Error> */}
     </main>
   );
