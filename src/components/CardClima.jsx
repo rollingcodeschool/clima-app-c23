@@ -4,7 +4,7 @@ const CardClima = () => {
       <h2 className="text-xl font-medium mb-2">San Miguel de Tucumán, AR</h2>
 
       <div className="flex flex-col items-center mb-6">
-        <img className="size-24" src={`https://openweathermap.org/img/wn/01n@2x.png`}></img>
+        <img className="size-24" src={`https://openweathermap.org/img/wn/01n@2x.png`} alt=''></img>
         <p className="text-5xl font-bold">10 °C</p>
         <p className="text-gray-300 text-sm mt-2">
           Sensación térmica 9.61 °C. 
