@@ -74,7 +74,7 @@ const Formulario = () => {
           </button>
         </div>
       </form>
-      {Object.keys(climaData).length > 0 ? <CardClima></CardClima> : <Error />}
+      {Object.keys(climaData).length > 0 ? <CardClima climaData={climaData}></CardClima> : <Error />}
     </>
   );
 };
