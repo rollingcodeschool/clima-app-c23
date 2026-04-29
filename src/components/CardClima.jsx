@@ -7,7 +7,10 @@ const CardClima = () => {
         <span className="text-6xl mb-2">☁️</span>
         <p className="text-5xl font-bold">10 °C</p>
         <p className="text-gray-300 text-sm mt-2">
-          Sensación térmica 9.61 °C. nubes
+          Sensación térmica 9.61 °C. 
+        </p>
+        <p className="text-gray-300 text-sm mt-2">
+          Nubes
         </p>
       </div>
 
